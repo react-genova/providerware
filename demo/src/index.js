@@ -1,14 +1,11 @@
 import React, {Component} from 'react'
 import {render} from 'react-dom'
 
-import Example from '../../src'
+import App from './App'
 
 class Demo extends Component {
   render() {
-    return <div>
-      <h1>providerware Demo</h1>
-      <Example/>
-    </div>
+    return <App />
   }
 }
 
