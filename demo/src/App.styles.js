@@ -1,10 +1,16 @@
 export const main = {
-    width: "500px",
+    width: "800px",
     fontFamily: 'Verdana, Sans',
     fontSize: "1.5em",
     fontWeight: "bold",
-    textAlign: "center",
+    display: "flex",
+    flexDirection: "row",
+    justifyContent: "spaceBetween",
+    userSelect: "none",
+};
+
+export const counters = {
     display: "flex",
     flexDirection: "column",
-    justifyContent: "center"
+    textAlign: "center",
 };
